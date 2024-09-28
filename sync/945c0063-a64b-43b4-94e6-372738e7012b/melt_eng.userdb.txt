@@ -1,0 +1,15 @@
+# Rime user dictionary
+#@/db_name	melt_eng
+#@/db_type	userdb
+#@/rime_version	1.11.2
+#@/tick	20
+#@/user_id	945c0063-a64b-43b4-94e6-372738e7012b
+Steam 	Steam	c=1 d=1 t=8
+Windows 	Windows	c=13 d=12.565 t=17
+clone 	clone	c=1 d=1 t=19
+config 	config	c=1 d=1 t=6
+custom 	custom	c=3 d=2.83705 t=20
+git 	git	c=1 d=1 t=18
+honey 	honey	c=1 d=0.995012 t=20
+rime 	rime	c=1 d=0.985112 t=20
+system 	system	c=1 d=1 t=15

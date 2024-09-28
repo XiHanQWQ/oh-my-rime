@@ -20,16 +20,63 @@ app_options:
     inline_preedit: true # 兼容 Yandex
 
 # [global settings]
-show_notifications: true                   # 是否显示状态变化的通知：true；false；option_list（方案内的开头 option）
-show_notifications_time: 1200              # 通知显示的时间，单位 ms
-global_ascii: false                        # 切换为 ascii 模式时，是否影响所有窗口：true；false
+show_notifications: true
+show_notifications_time: 
+global_ascii: false
 # [End of <global settings>]
 
 # [style]
 # 字体；候选项、候选窗口的行为、布局及样式
 style:
-  color_scheme: mint_light_blue             # 默认配色方案
-  color_scheme_dark: mint_dark_blue         # 深色模式下，Weasel 的配色方案，Windows 10 1809+ 可用
+  comment_font_point: 14
+  inline_preedit: false
+  display_tray_icon: false
+  mark_text: ""
+  vertical_text_left_to_right: true
+  label_font_face: "微软雅黑"
+  label_font_point: 14
+  font_face: "微软雅黑"
+  ascii_tip_follow_cursor: true
+  horizontal: true
+  antialias_mode: default
+  vertical_text: true
+  fullscreen: false
+  preedit_type: composition
+  vertical_text_with_wrap: false
+  vertical_auto_reverse: false
+  label_format: "%s."
+  color_scheme: "ink"
+  comment_font_face: "微软雅黑"
+  font_point: 14
+  mouse_hover_ms: 0
+  paging_on_scroll: false
+  color_scheme_dark: "ink"
+  candidate_abbreviate_length: 0
+  click_to_capture: false
+  enhanced_position: true
+  hover_type: none
+  layout:
+    margin_y: 12
+    shadow_offset_x: "-8"
+    shadow_offset_y: "8"
+    border: 1
+    hilite_padding: 5
+    min_height: 0
+    hilite_spacing: 10
+    spacing: 18
+    corner_radius: 8
+    shadow_radius: 8
+    round_corner: 8
+    candidate_spacing: 15
+    min_width: 80
+    max_width: 2800
+    border_width: 1
+    margin_x: 12
+    type: vertical
+    max_height: 2800
+    align_type: center
+    hilite_padding_x: 5
+    hilite_padding_y: 5
 
   # 全局字体
   # 格式：字体1:起始码位:结束码位:字重:字形,字体2……，字体会依次 fallback

@@ -1,0 +1,16 @@
+# Rime user dictionary
+#@/db_name	terra_pinyin
+#@/db_type	userdb
+#@/rime_version	1.11.2
+#@/tick	11
+#@/user_id	945c0063-a64b-43b4-94e6-372738e7012b
+bo4 he2 	薄荷	c=1 d=0.970446 t=11
+fan1 ye4 	翻页	c=1 d=0.99005 t=11
+heng2 pai2 	橫排	c=1 d=0.955997 t=11
+ni3 hao3 ya5 	你好呀	c=1 d=0.965605 t=11
+re4 qie4 	热切	c=1 d=0.980199 t=11
+shen2 me5 	什么	c=1 d=1 t=11
+shen2 me5 yi4 si1 	什么意思	c=1 d=0.995012 t=11
+shu1 ru4 fa3 	输入法	c=1 d=0.97531 t=11
+suo3 	所	c=1 d=0.960789 t=11
+xiao3 lang2 hao2 	小狼毫	c=2 d=1.93635 t=11
