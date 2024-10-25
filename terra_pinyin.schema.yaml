@@ -1,11 +1,7 @@
 schema:
   schema_id: terra_pinyin
   name: "地球拼音-薄荷定制"
-<<<<<<< HEAD
-  version: "24.09.10"
-=======
   version: "24.10.02"
->>>>>>> 4b6c0b30a1be3e6b8306dd16885a224cd65f8400
   author:
     - 佛振 <chen.sst@gmail.com>
     - mintimate < @Mintimate|https://www.mintimate.cn >
@@ -399,7 +395,7 @@ recognizer:
   import_preset: default
   patterns:
     url: "^[a-z]+[.].+$"
-    punct: "^/[0-9a-zA-Z]*'?$"
+    punct: "^/([0-9]0?|[a-zA-Z]+)$"
     wubi98_mint: "Uw[a-z]*'?$"
     stroke: "Ui[a-z]*'?$"
     radical_lookup: "Uu[a-z]*'?$"
@@ -440,7 +436,7 @@ key_binder:
     - { when: always, accept: Control+Shift+1, select: .next }   # 切换输入方案
     - { when: always, accept: Control+Shift+2, toggle: ascii_mode } # 切换中/西文模式
     - { when: always, accept: Control+Shift+3, toggle: full_shape } # 切换全角/半角
-    - { when: always, accept: Control+Shift+4, toggle: simplification } # 切换简体/繁体
+    - { when: always, accept: Control+Shift+4, toggle: transcription } # 切换简体/繁体
     - { when: always, accept: Control+Shift+5, toggle: extended_charset } # 切换扩展字符
     - { when: always, accept: Shift+space, toggle: full_shape } # 另一种切换全角/半角的方式
     - { when: always, accept: Control+period, toggle: ascii_punct } # 切换中/西文标点
